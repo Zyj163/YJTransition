@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AFE73CADDC501C12C7E6F6A7E0F1E45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		0B4E30368B4C8B2784DA54AD723A8B2A /* YJTransitionHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B4DA50E12B8C7C2BE614317A69AFE5 /* YJTransitionHolder.m */; };
+		0BD5158B99D09AE3B75A9CFCBD4F2DA7 /* YJCustomAnimatedTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF6F37EA5761EE8C522C0AC6840ABD5 /* YJCustomAnimatedTransition.m */; };
+		2C93D6908C96971BD16468E443968758 /* YJCustomAnimatedTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = E5FC664C1B5AFB6C00D707846130D895 /* YJCustomAnimatedTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E510196C77FE02CAEF3E45C68ACC5E1 /* UIViewController+YJTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A07D20E60C039E7D218506B7ACFB886 /* UIViewController+YJTransition.m */; };
+		3535F64FDACCFCCA3335240395A6A9D7 /* UIViewController+YJTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CBF70782C03834B963078055EF1028E /* UIViewController+YJTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4950C398111A3C2F5BA8D60EC043EB58 /* Pods-YJTransition_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA3FBF52DF148BE753A63D911E07ED04 /* Pods-YJTransition_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FB3F9B1990F5CF20E95433DE3593ABF /* UIView+YJTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EC55EDD9D3929E8FDD1AFB4D1C1699 /* UIView+YJTransitionAnimation.m */; };
+		606EB66011C49A26FF6CA1FB33431DFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6700D6CEFDBD7EA6390D403001A3B2EA /* Pods-YJTransition_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD91AFFE7D676B6A555E65D15D96377 /* Pods-YJTransition_Example-dummy.m */; };
+		6D1F55CC0C4D23C34EB1FC8E0226ED68 /* YJTransition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17E85A279D036C5A5A6F7BF34C0E3C46 /* YJTransition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82F4471DE4476BE90340F1D1B0B83C0D /* YJTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = B583D4251A596734CC298563AC6C6FBF /* YJTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		927556B9437024FA91E18A3B40AF4F3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9B9CFDB49924B16FB57386BE7EDDFC40 /* YJCustomTransitioningDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3583DFBCC8F04C4A4732717AB0E79883 /* YJCustomTransitioningDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F9539C9D1B3233C4F768FA9F1F56284 /* Pods-YJTransition_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4DC59133863ED78DD1D3900206B975 /* Pods-YJTransition_Tests-dummy.m */; };
+		C8CA51E97AFB77CCFF4B175B3729F224 /* UIView+YJTransitionAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = EAB41F41EA7524407557529CAF18F689 /* UIView+YJTransitionAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC7A7B9BC3FE4A499EEDD913056D0C21 /* YJCustomTransitioningDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 846D226AB4E492B178A0CB3ECF2C5604 /* YJCustomTransitioningDelegate.m */; };
+		D4AE823BA12B1E108725A9CD5B07BBB9 /* YJTransitionHolder.h in Headers */ = {isa = PBXBuildFile; fileRef = A313B63EC6CAE87B8EED992B690EDBE2 /* YJTransitionHolder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA07D74C93C22B4E14EEEFFCF65E9116 /* YJTransition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 640261B3BDCCED222155285FDA5036D3 /* YJTransition-dummy.m */; };
+		E60E6F37DF610B22063B40B94D7A2CF2 /* Pods-YJTransition_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 942FECF303FDE2AF5B6D17FE93981C56 /* Pods-YJTransition_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEA27B2643AADFDC9E8A7188F0AE8AD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E7EF703F5CE0957BCADD75EFF63C0EA;
+			remoteInfo = YJTransition;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14EC55EDD9D3929E8FDD1AFB4D1C1699 /* UIView+YJTransitionAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+YJTransitionAnimation.m"; sourceTree = "<group>"; };
+		17E85A279D036C5A5A6F7BF34C0E3C46 /* YJTransition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YJTransition-umbrella.h"; sourceTree = "<group>"; };
+		1D0A2BEDDF0E29D7A052158BF8E5E9E3 /* Pods_YJTransition_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YJTransition_Example.framework; path = "Pods-YJTransition_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2182D9679DDD83A4C0087AD13418642E /* Pods-YJTransition_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YJTransition_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2BC3A94026EACC8FC691B50A688E0570 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BF6F37EA5761EE8C522C0AC6840ABD5 /* YJCustomAnimatedTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YJCustomAnimatedTransition.m; sourceTree = "<group>"; };
+		34C273BA6E7A3851ABB46DBAB2CEDD2B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3583DFBCC8F04C4A4732717AB0E79883 /* YJCustomTransitioningDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YJCustomTransitioningDelegate.h; sourceTree = "<group>"; };
+		3728EF40E334A0BE02F324D090B9F934 /* Pods-YJTransition_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YJTransition_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3E0A7C44A7E085A91DAE1CE28D3DF940 /* Pods-YJTransition_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YJTransition_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		448F1B30C69F4082054C5110A5A4B428 /* Pods-YJTransition_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YJTransition_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		53C951EAAC0E888A8107928AF24A1092 /* YJTransition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = YJTransition.modulemap; sourceTree = "<group>"; };
+		5A07D20E60C039E7D218506B7ACFB886 /* UIViewController+YJTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+YJTransition.m"; sourceTree = "<group>"; };
+		5F7CF7A60178B8E0A19B742A273496B8 /* YJTransition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YJTransition-prefix.pch"; sourceTree = "<group>"; };
+		640261B3BDCCED222155285FDA5036D3 /* YJTransition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YJTransition-dummy.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6C31B08C3341DDD5E916BEE6D517C20D /* Pods-YJTransition_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YJTransition_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6CBF70782C03834B963078055EF1028E /* UIViewController+YJTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+YJTransition.h"; sourceTree = "<group>"; };
+		706A7EF76F3DEE5CF4425D036B748929 /* Pods-YJTransition_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YJTransition_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		71C343D68EBDEF4C1237BEB24DD56C0F /* Pods-YJTransition_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YJTransition_Tests-resources.sh"; sourceTree = "<group>"; };
+		7583EF76B867294F088E7B1D0D88CC78 /* Pods-YJTransition_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YJTransition_Example-resources.sh"; sourceTree = "<group>"; };
+		7A4DC59133863ED78DD1D3900206B975 /* Pods-YJTransition_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YJTransition_Tests-dummy.m"; sourceTree = "<group>"; };
+		7A8EBF6B535C60A1C77BEB1A5F07F969 /* YJTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YJTransition.framework; path = YJTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		846D226AB4E492B178A0CB3ECF2C5604 /* YJCustomTransitioningDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YJCustomTransitioningDelegate.m; sourceTree = "<group>"; };
+		8BD91AFFE7D676B6A555E65D15D96377 /* Pods-YJTransition_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YJTransition_Example-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		942FECF303FDE2AF5B6D17FE93981C56 /* Pods-YJTransition_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YJTransition_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9F7856796711E52E906B5D2E5619A2CB /* Pods-YJTransition_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YJTransition_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A313B63EC6CAE87B8EED992B690EDBE2 /* YJTransitionHolder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YJTransitionHolder.h; sourceTree = "<group>"; };
+		A47D7DB0C9A258B9D60D8E720933423B /* Pods-YJTransition_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YJTransition_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A4B4DA50E12B8C7C2BE614317A69AFE5 /* YJTransitionHolder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YJTransitionHolder.m; sourceTree = "<group>"; };
+		A97A2A2B98B733320A9C87D7667EED6B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA3FBF52DF148BE753A63D911E07ED04 /* Pods-YJTransition_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YJTransition_Example-umbrella.h"; sourceTree = "<group>"; };
+		B583D4251A596734CC298563AC6C6FBF /* YJTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YJTransition.h; sourceTree = "<group>"; };
+		BD6A0356AFDD13B4C62EA01672F6BC7E /* Pods-YJTransition_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YJTransition_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C29246A143FD1B3FBDF12AFE47C8CC63 /* Pods-YJTransition_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YJTransition_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CB1DB274D3EDD991E068B3C80ABD03C0 /* Pods-YJTransition_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YJTransition_Example.modulemap"; sourceTree = "<group>"; };
+		D86924FD5711D662932ABF227AA30E4F /* Pods_YJTransition_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YJTransition_Tests.framework; path = "Pods-YJTransition_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5FC664C1B5AFB6C00D707846130D895 /* YJCustomAnimatedTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YJCustomAnimatedTransition.h; sourceTree = "<group>"; };
+		EAB41F41EA7524407557529CAF18F689 /* UIView+YJTransitionAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+YJTransitionAnimation.h"; sourceTree = "<group>"; };
+		F0E3111A55A682003A4BADE828BB4B81 /* YJTransition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YJTransition.xcconfig; sourceTree = "<group>"; };
+		F295257DBA238CCCC907E85FF5401EA4 /* Pods-YJTransition_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-YJTransition_Tests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AE9D857999D6A85B7222A4CA06B370B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				927556B9437024FA91E18A3B40AF4F3E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21027ADAA5A20C8EBE4FA2FDE40AE1A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				606EB66011C49A26FF6CA1FB33431DFF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B58FCA895A04C090ABB754A7411F66D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AFE73CADDC501C12C7E6F6A7E0F1E45 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E06F6B312B8EF97E4D843217390DBCD /* Pods-YJTransition_Example */ = {
+			isa = PBXGroup;
+			children = (
+				2BC3A94026EACC8FC691B50A688E0570 /* Info.plist */,
+				CB1DB274D3EDD991E068B3C80ABD03C0 /* Pods-YJTransition_Example.modulemap */,
+				C29246A143FD1B3FBDF12AFE47C8CC63 /* Pods-YJTransition_Example-acknowledgements.markdown */,
+				706A7EF76F3DEE5CF4425D036B748929 /* Pods-YJTransition_Example-acknowledgements.plist */,
+				8BD91AFFE7D676B6A555E65D15D96377 /* Pods-YJTransition_Example-dummy.m */,
+				2182D9679DDD83A4C0087AD13418642E /* Pods-YJTransition_Example-frameworks.sh */,
+				7583EF76B867294F088E7B1D0D88CC78 /* Pods-YJTransition_Example-resources.sh */,
+				AA3FBF52DF148BE753A63D911E07ED04 /* Pods-YJTransition_Example-umbrella.h */,
+				3E0A7C44A7E085A91DAE1CE28D3DF940 /* Pods-YJTransition_Example.debug.xcconfig */,
+				3728EF40E334A0BE02F324D090B9F934 /* Pods-YJTransition_Example.release.xcconfig */,
+			);
+			name = "Pods-YJTransition_Example";
+			path = "Target Support Files/Pods-YJTransition_Example";
+			sourceTree = "<group>";
+		};
+		16CA61E16B06D682FF2B273EB2C77DDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D0A2BEDDF0E29D7A052158BF8E5E9E3 /* Pods_YJTransition_Example.framework */,
+				D86924FD5711D662932ABF227AA30E4F /* Pods_YJTransition_Tests.framework */,
+				7A8EBF6B535C60A1C77BEB1A5F07F969 /* YJTransition.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A6DAB1F7E503F361AF5D694CFD3696C /* YJTransition */ = {
+			isa = PBXGroup;
+			children = (
+				DFF3FAE4A7F3BF684CCCDD7E23E61ECD /* Support Files */,
+				93AE96DA97BB63ACFB104D48DC73B842 /* YJTransition */,
+			);
+			name = YJTransition;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				F9FCCE933C4AF5A43CDA9D8BE88205AE /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				16CA61E16B06D682FF2B273EB2C77DDD /* Products */,
+				AAD4348591E46A55E4C27A568F68B5FA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		93AE96DA97BB63ACFB104D48DC73B842 /* YJTransition */ = {
+			isa = PBXGroup;
+			children = (
+				9AA907657EC9FDF0E2A281A4563DE839 /* Classes */,
+			);
+			name = YJTransition;
+			path = YJTransition;
+			sourceTree = "<group>";
+		};
+		9AA907657EC9FDF0E2A281A4563DE839 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EAB41F41EA7524407557529CAF18F689 /* UIView+YJTransitionAnimation.h */,
+				14EC55EDD9D3929E8FDD1AFB4D1C1699 /* UIView+YJTransitionAnimation.m */,
+				6CBF70782C03834B963078055EF1028E /* UIViewController+YJTransition.h */,
+				5A07D20E60C039E7D218506B7ACFB886 /* UIViewController+YJTransition.m */,
+				E5FC664C1B5AFB6C00D707846130D895 /* YJCustomAnimatedTransition.h */,
+				2BF6F37EA5761EE8C522C0AC6840ABD5 /* YJCustomAnimatedTransition.m */,
+				3583DFBCC8F04C4A4732717AB0E79883 /* YJCustomTransitioningDelegate.h */,
+				846D226AB4E492B178A0CB3ECF2C5604 /* YJCustomTransitioningDelegate.m */,
+				B583D4251A596734CC298563AC6C6FBF /* YJTransition.h */,
+				A313B63EC6CAE87B8EED992B690EDBE2 /* YJTransitionHolder.h */,
+				A4B4DA50E12B8C7C2BE614317A69AFE5 /* YJTransitionHolder.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AAD4348591E46A55E4C27A568F68B5FA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0E06F6B312B8EF97E4D843217390DBCD /* Pods-YJTransition_Example */,
+				BA067734482957608B44442DA3F2013B /* Pods-YJTransition_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BA067734482957608B44442DA3F2013B /* Pods-YJTransition_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A97A2A2B98B733320A9C87D7667EED6B /* Info.plist */,
+				F295257DBA238CCCC907E85FF5401EA4 /* Pods-YJTransition_Tests.modulemap */,
+				6C31B08C3341DDD5E916BEE6D517C20D /* Pods-YJTransition_Tests-acknowledgements.markdown */,
+				A47D7DB0C9A258B9D60D8E720933423B /* Pods-YJTransition_Tests-acknowledgements.plist */,
+				7A4DC59133863ED78DD1D3900206B975 /* Pods-YJTransition_Tests-dummy.m */,
+				9F7856796711E52E906B5D2E5619A2CB /* Pods-YJTransition_Tests-frameworks.sh */,
+				71C343D68EBDEF4C1237BEB24DD56C0F /* Pods-YJTransition_Tests-resources.sh */,
+				942FECF303FDE2AF5B6D17FE93981C56 /* Pods-YJTransition_Tests-umbrella.h */,
+				BD6A0356AFDD13B4C62EA01672F6BC7E /* Pods-YJTransition_Tests.debug.xcconfig */,
+				448F1B30C69F4082054C5110A5A4B428 /* Pods-YJTransition_Tests.release.xcconfig */,
+			);
+			name = "Pods-YJTransition_Tests";
+			path = "Target Support Files/Pods-YJTransition_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DFF3FAE4A7F3BF684CCCDD7E23E61ECD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				34C273BA6E7A3851ABB46DBAB2CEDD2B /* Info.plist */,
+				53C951EAAC0E888A8107928AF24A1092 /* YJTransition.modulemap */,
+				F0E3111A55A682003A4BADE828BB4B81 /* YJTransition.xcconfig */,
+				640261B3BDCCED222155285FDA5036D3 /* YJTransition-dummy.m */,
+				5F7CF7A60178B8E0A19B742A273496B8 /* YJTransition-prefix.pch */,
+				17E85A279D036C5A5A6F7BF34C0E3C46 /* YJTransition-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YJTransition";
+			sourceTree = "<group>";
+		};
+		F9FCCE933C4AF5A43CDA9D8BE88205AE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A6DAB1F7E503F361AF5D694CFD3696C /* YJTransition */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		57B7A28C52F02A69DD073CBBB57004A5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E60E6F37DF610B22063B40B94D7A2CF2 /* Pods-YJTransition_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC6FCBC11659485EEF7D60C1E40FF86C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8CA51E97AFB77CCFF4B175B3729F224 /* UIView+YJTransitionAnimation.h in Headers */,
+				3535F64FDACCFCCA3335240395A6A9D7 /* UIViewController+YJTransition.h in Headers */,
+				2C93D6908C96971BD16468E443968758 /* YJCustomAnimatedTransition.h in Headers */,
+				9B9CFDB49924B16FB57386BE7EDDFC40 /* YJCustomTransitioningDelegate.h in Headers */,
+				6D1F55CC0C4D23C34EB1FC8E0226ED68 /* YJTransition-umbrella.h in Headers */,
+				82F4471DE4476BE90340F1D1B0B83C0D /* YJTransition.h in Headers */,
+				D4AE823BA12B1E108725A9CD5B07BBB9 /* YJTransitionHolder.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1F351F6AF6D3F583084BF810DD2A179 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4950C398111A3C2F5BA8D60EC043EB58 /* Pods-YJTransition_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6E7EF703F5CE0957BCADD75EFF63C0EA /* YJTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FBA6750D622316DE2F15E387B3E3A4D /* Build configuration list for PBXNativeTarget "YJTransition" */;
+			buildPhases = (
+				2CE2F5602B9DC1A46425792080288C36 /* Sources */,
+				3B58FCA895A04C090ABB754A7411F66D /* Frameworks */,
+				AC6FCBC11659485EEF7D60C1E40FF86C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YJTransition;
+			productName = YJTransition;
+			productReference = 7A8EBF6B535C60A1C77BEB1A5F07F969 /* YJTransition.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D76CBCC7A495E59C09C623218CEDEBD5 /* Pods-YJTransition_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A69FC69E3AB478C861444A92469DD3D3 /* Build configuration list for PBXNativeTarget "Pods-YJTransition_Tests" */;
+			buildPhases = (
+				2A6D16B31887C6D0661034109FA7FE78 /* Sources */,
+				21027ADAA5A20C8EBE4FA2FDE40AE1A3 /* Frameworks */,
+				57B7A28C52F02A69DD073CBBB57004A5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-YJTransition_Tests";
+			productName = "Pods-YJTransition_Tests";
+			productReference = D86924FD5711D662932ABF227AA30E4F /* Pods_YJTransition_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FD63A386891AC52C42E15D1DCE05B37E /* Pods-YJTransition_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CDAF8F294AF6D0D9FA04CE356A106E0 /* Build configuration list for PBXNativeTarget "Pods-YJTransition_Example" */;
+			buildPhases = (
+				6A5EDE8D66C0F36978CF8FDB19FB84C8 /* Sources */,
+				1AE9D857999D6A85B7222A4CA06B370B /* Frameworks */,
+				C1F351F6AF6D3F583084BF810DD2A179 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31C41581BA42A5CA888FA25C5E97CCD5 /* PBXTargetDependency */,
+			);
+			name = "Pods-YJTransition_Example";
+			productName = "Pods-YJTransition_Example";
+			productReference = 1D0A2BEDDF0E29D7A052158BF8E5E9E3 /* Pods_YJTransition_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 16CA61E16B06D682FF2B273EB2C77DDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD63A386891AC52C42E15D1DCE05B37E /* Pods-YJTransition_Example */,
+				D76CBCC7A495E59C09C623218CEDEBD5 /* Pods-YJTransition_Tests */,
+				6E7EF703F5CE0957BCADD75EFF63C0EA /* YJTransition */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A6D16B31887C6D0661034109FA7FE78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F9539C9D1B3233C4F768FA9F1F56284 /* Pods-YJTransition_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CE2F5602B9DC1A46425792080288C36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FB3F9B1990F5CF20E95433DE3593ABF /* UIView+YJTransitionAnimation.m in Sources */,
+				2E510196C77FE02CAEF3E45C68ACC5E1 /* UIViewController+YJTransition.m in Sources */,
+				0BD5158B99D09AE3B75A9CFCBD4F2DA7 /* YJCustomAnimatedTransition.m in Sources */,
+				CC7A7B9BC3FE4A499EEDD913056D0C21 /* YJCustomTransitioningDelegate.m in Sources */,
+				DA07D74C93C22B4E14EEEFFCF65E9116 /* YJTransition-dummy.m in Sources */,
+				0B4E30368B4C8B2784DA54AD723A8B2A /* YJTransitionHolder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A5EDE8D66C0F36978CF8FDB19FB84C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6700D6CEFDBD7EA6390D403001A3B2EA /* Pods-YJTransition_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31C41581BA42A5CA888FA25C5E97CCD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YJTransition;
+			target = 6E7EF703F5CE0957BCADD75EFF63C0EA /* YJTransition */;
+			targetProxy = EEA27B2643AADFDC9E8A7188F0AE8AD4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		26B30688B394B0AA05F85797A25CFC70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E0A7C44A7E085A91DAE1CE28D3DF940 /* Pods-YJTransition_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YJTransition_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YJTransition_Example/Pods-YJTransition_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YJTransition_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		583A406CBE2A79A238F30525F5C61DC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0E3111A55A682003A4BADE828BB4B81 /* YJTransition.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YJTransition/YJTransition-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YJTransition/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YJTransition/YJTransition.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = YJTransition;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		654C063F5CC148D881AD643BCC7790A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 448F1B30C69F4082054C5110A5A4B428 /* Pods-YJTransition_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YJTransition_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YJTransition_Tests/Pods-YJTransition_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YJTransition_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		66FCB2BA6A3F64AC97592DFAFF1AE5B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3728EF40E334A0BE02F324D090B9F934 /* Pods-YJTransition_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YJTransition_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YJTransition_Example/Pods-YJTransition_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YJTransition_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2DC91A37101DC1F23D8AED0B3DF4693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD6A0356AFDD13B4C62EA01672F6BC7E /* Pods-YJTransition_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YJTransition_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YJTransition_Tests/Pods-YJTransition_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YJTransition_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E895B43BD4548CA70461E6CF5439D845 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0E3111A55A682003A4BADE828BB4B81 /* YJTransition.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YJTransition/YJTransition-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YJTransition/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YJTransition/YJTransition.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = YJTransition;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FBA6750D622316DE2F15E387B3E3A4D /* Build configuration list for PBXNativeTarget "YJTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				583A406CBE2A79A238F30525F5C61DC5 /* Debug */,
+				E895B43BD4548CA70461E6CF5439D845 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CDAF8F294AF6D0D9FA04CE356A106E0 /* Build configuration list for PBXNativeTarget "Pods-YJTransition_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26B30688B394B0AA05F85797A25CFC70 /* Debug */,
+				66FCB2BA6A3F64AC97592DFAFF1AE5B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A69FC69E3AB478C861444A92469DD3D3 /* Build configuration list for PBXNativeTarget "Pods-YJTransition_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2DC91A37101DC1F23D8AED0B3DF4693 /* Debug */,
+				654C063F5CC148D881AD643BCC7790A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

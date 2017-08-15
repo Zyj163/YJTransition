@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		0E7E70B7406CD426AE974966 /* Pods-YJTransition_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJTransition_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YJTransition_Tests/Pods-YJTransition_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		3687072E1CC183C178CAD64E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3687072E1CC183C178CAD64E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4D974AFF3CA5959F4D9DE4CA /* Pods_YJTransition_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YJTransition_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F43D5E3EAB54288671CF460 /* Pods-YJTransition_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJTransition_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YJTransition_Example/Pods-YJTransition_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* YJTransition_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJTransition_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,8 +64,8 @@
 		7D61A560CE19C63C348EED98 /* Pods-YJTransition_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJTransition_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YJTransition_Example/Pods-YJTransition_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A104C6A709C0637B63B90E1C /* Pods-YJTransition_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJTransition_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YJTransition_Tests/Pods-YJTransition_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AF0FB1430011E3667EF11ADB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		C33032B3673C16B6C70DFE83 /* YJTransition.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YJTransition.podspec; path = ../YJTransition.podspec; sourceTree = "<group>"; };
+		AF0FB1430011E3667EF11ADB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C33032B3673C16B6C70DFE83 /* YJTransition.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YJTransition.podspec; path = ../YJTransition.podspec; sourceTree = "<group>"; };
 		D09C545C98AD6EBE014DC6DD /* Pods_YJTransition_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YJTransition_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -247,7 +247,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = YJ;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = Zyj163;
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
@@ -459,14 +459,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -499,13 +504,18 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;

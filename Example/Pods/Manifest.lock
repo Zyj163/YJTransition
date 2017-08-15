@@ -1,0 +1,16 @@
+PODS:
+  - YJTransition (0.1.0)
+
+DEPENDENCIES:
+  - YJTransition (from `../`)
+
+EXTERNAL SOURCES:
+  YJTransition:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YJTransition: 24ede909a9d570e618fd6585d1c2f236b8a31d3b
+
+PODFILE CHECKSUM: 063b17ddfabc649c17e957b065b0e2e55102bd6f
+
+COCOAPODS: 1.2.1
