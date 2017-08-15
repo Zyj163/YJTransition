@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YJTransition_Example' do
+  pod 'YJTransition', :path => '../'
+
+  target 'YJTransition_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
